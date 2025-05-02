@@ -1,2 +1,12 @@
-# Python-Lists
-📦 Fruit List Manager 🍎🍌🥭 This is a simple Python program that lets you:  ✅ Enter your favorite 3 fruits ➕ Decide if you want to add more 🧠 Uses input() and append() to build a dynamic fruit list 🖨️ Displays the final list nicely!  Perfect for beginners learning lists, conditionals, and user input in Python! 🐍
+f1 = input("Enter your first fruit ")
+f2 = input("Enter your second fruit ")
+f3 = input("Enter your third fruit ")
+fruit_list = [f1,f2,f3]
+print("The current items are", fruit_list)
+ask = input("Do you want to add something? ")
+if ask == "yes":
+    a=input("What do you want to add? ")
+    fruit_list.append(a)
+    print("The updated list is", fruit_list)
+else:
+    print("Ok")
